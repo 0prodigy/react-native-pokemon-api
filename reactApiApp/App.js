@@ -15,6 +15,7 @@ const App = () => {
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.pokeListHeader}>Pokemon API</Text>
+      <PokeList style={styles.pokeListHeader} />
     </ScrollView>
   );
 };
