@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import { StyleSheet, ScrollView, Text } from 'react-native';
+import {StyleSheet, ScrollView, Text} from 'react-native';
 
 import PokeList from './components/PokeList';
 
