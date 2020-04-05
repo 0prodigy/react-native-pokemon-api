@@ -2,9 +2,12 @@
 import React from 'react';
 import {TouchableOpacity, Text, View, Image} from 'react-native';
 import styles from './styles';
-const PokeCard = ({name}) => {
+
+const PokeCard = ({name, navigation}) => {
   return (
-    <TouchableOpacity style={{backgroundColor: 'transparent'}}>
+    <TouchableOpacity
+      style={{backgroundColor: 'transparent'}}
+      onPress={() => navigation.navigate('Pokemon', {name})}>
       <View style={styles.listItemContainer}>
         <Text style={styles.pokeItemHeader}>{name}</Text>
         <Image

@@ -10,9 +10,11 @@ import React from 'react';
 import {StyleSheet, ScrollView, Text} from 'react-native';
 
 import PokeList from './components/PokeList';
+// import Home from './components/Home';
 
 const App = () => {
   return (
+    // <Home />
     <ScrollView style={styles.container}>
       <Text style={styles.pokeListHeader}>Pokemon API</Text>
       <PokeList style={styles.pokeListHeader} />

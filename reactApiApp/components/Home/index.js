@@ -6,10 +6,12 @@ class Home extends PureComponent {
   static navigationOptions = ({navigation}) => ({
     headerRight: (
       <Button
-        color="#000"
+        color="#fff"
         title="Go to Poke List"
-        onPress={() => navigation.navigate('PokeList')}
-      />
+        onPress={() => navigation.navigate('PokeList')}>
+        {' '}
+        <Text style={styles.header}>Welcome to Pokemon API App</Text>
+      </Button>
     ),
   });
   render() {
