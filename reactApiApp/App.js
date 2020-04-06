@@ -10,6 +10,7 @@ import React from 'react';
 import {StyleSheet, ScrollView, Text} from 'react-native';
 
 import PokeList from './components/PokeList';
+import Router from './Routes';
 // import Home from './components/Home';
 
 const App = () => {
